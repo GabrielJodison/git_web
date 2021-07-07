@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+
+        var nota1 = prompt('informe a primeira nota')
+        var nota2 = prompt('informe a segunda nota')
+        var nota3 = prompt('informe a terceira nota')
+        var nota4 = prompt('informe a quarta nota')
+        var faltas = prompt('informe a quantidade de faltas')
+
+        nota1 = parseInt(nota1)
+        nota2 = parseInt(nota2)
+        nota3 = parseInt(nota3)
+        nota4 = parseInt(nota4)
+        
+        var media = (nota1 + nota2 + nota3 + nota4)/4 
+        var faltas_maximas = 15
+
+        nota1 = parseInt(nota1)
+        nota2 = parseInt(nota2)
+        nota3 = parseInt(nota3)
+        nota4 = parseInt(nota4)
+        
+
+            /* operadores logicos
+            E (&&) 
+            OU (||)
+            NEGACAO(!)
+            */        
+
+      if(media >= 6 && faltas <= faltas_maximas){
+          document.write('Aprovado')
+      } else{
+          document.write('Reprovado')
+      }
+
+      
+
+
+    </script>
+</head>
+<body>
+ <p></p>
+    
+</body>
+</html>
