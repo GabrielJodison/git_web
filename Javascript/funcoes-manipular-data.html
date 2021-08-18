@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script>
+        var data = new Date()
+
+        document.write(data.getDate())
+        document.write(data.getMonth() + 1 )
+        document.write(data.getFullYear())
+
+        document.write('<br/>')
+        
+        document.write(data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear() )
+
+        document.write('<br/>')
+        document.write('<br/>')
+        document.write('<br/>')
+
+
+
+        //adicionar remover dias
+        document.write(data.toString())
+        data.setDate(data.getDate() + 1)
+        document.write('<hr/>')
+        document.write(data.toString())
+
+        document.write('<hr/>')
+
+        //adicionar remover mes
+        document.write(data.toString())
+        data.setMonth(data.getMonth() + 3)
+        document.write('<hr/>')
+        document.write(data.toString())
+
+
+        document.write('<hr/>')
+
+        //adicionar remover ano
+        document.write(data.toString())
+        data.setFullYear(data.getFullYear() + 3)
+        document.write('<hr/>')
+        document.write(data.toString())
+       
+        var  data1 = new Date(2021, 0, 15)
+
+        var  data2 = new Date(2025, 2, 15)
+
+
+        document.write('<hr/><br/><br/><br/>')
+
+        document.write(data1.toString())
+        document.write(data2.toString())
+
+        document.write('<hr/><br/><br/><br/>')
+        //converter datas para calcular
+        document.write(data1.getTime())
+        document.write('<hr/>')
+        document.write(data2.getTime())
+
+        //encontrar qtde milissegundos dta1 dta2
+        document.write('<hr/><br/><br/><br/>')
+
+        document.write(Math.abs(data1.getTime() - data2.getTime()))
+        document.write('<hr/><br/><br/><br/>')
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

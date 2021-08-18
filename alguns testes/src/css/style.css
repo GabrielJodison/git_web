@@ -1,0 +1,18 @@
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#div1 {
+    background-color: magenta;    
+    width: 925px;
+    height: 800px;
+
+}
+#div2 {
+    background-color: teal;
+    width: 925px;
+    height: 800px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+      function acao(){
+          alert('evento disparado')
+      }
+      function doisclick(){
+          alert('evento 2 disparado')
+      }
+      function teste(){
+          alert('evento 3 disparado')
+      }
+      function mousesai(){
+          alert('evento 4 disparado')
+      }
+      function mouseout(){
+          alert('evento 43 disparado')
+      }
+    </script>
+</head>
+<body>
+    <div onclick="acao()" style="background: #ccc; height: 150px;width:150px;"> </div>    
+    <div ondblclick="doisclick()" style="background: tan; height: 150px;width:150px;"> </div>    
+    <div onmouseup="teste()" style="background: red; height: 150px;width:150px;"> </div>    
+    <div onmouseover="mousesai()" style="background: blue; height: 150px;width:150px;"> </div>    
+    <div onmouseout="mouseout()" style="background: black; height: 150px;width:150px;"> </div>    
+
+</body>
+</html>
+
+
+
+
+
+

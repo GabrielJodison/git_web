@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+      var listaCoisas = []
+    
+
+    //   listaCoisas['frutas'] = []
+
+    //   listaCoisas['frutas'][1] = 'Banana'
+    //   listaCoisas['frutas'][2] = 'Laranja'
+    //   listaCoisas['frutas'][3] = 'Maracuja'
+    //   listaCoisas['frutas'][4] = 'Uva'
+      
+    //   console.log(listaCoisas['frutas'].sort())
+     
+     
+      listaCoisas['numeros'] = []
+
+      listaCoisas['numeros'][1] = 120
+      listaCoisas['numeros'][2] = 78
+      listaCoisas['numeros'][3] = 123
+      listaCoisas['numeros'][4] = 43344
+      listaCoisas['numeros'][5] = 435345
+      listaCoisas['numeros'][6] = 432
+      listaCoisas['numeros'][7] = 4332
+      listaCoisas['numeros'][8] = 43787
+      listaCoisas['numeros'][9] = 1212344
+      
+      console.log(listaCoisas['numeros'].sort(ordenaNumeros))
+
+      function ordenaNumeros(a, b){
+          return a - b
+          // <0 = a ordenado antes de b
+          // >0 = b ordenado depos de b
+          // == a ordem e mantida
+      }
+    </script>
+</head>
+<body>
+    <h1></h1>
+    
+</body>
+</html>
